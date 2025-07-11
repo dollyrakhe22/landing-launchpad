@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+    background-image: url("Assets/Hero-bg.png");
+    
+}
+/*nav style*/
+h2{
+    color:#4E47FF;
+    font-weight: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+nav button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:#4E47FF ;
+    color:white;
+    border-radius: 5px;
+    border: none;
+
+
+
+}
